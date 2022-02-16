@@ -1,0 +1,71 @@
+body { background-color: #a1a3a8; 
+    font-family: Arial, sans-serif;}
+
+#sheet { margin: 0 auto;
+        width: 80%; min-width: 500px;
+        background-color: #FFFFFF; 
+        border: 2px solid #000000;}
+
+h1 { background-color: #fdc04e;
+ border: 2px solid #000000;
+  margin: auto;
+ font-size: 3em;
+  text-align: center;
+ padding: .25em;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+main { margin: auto; }
+
+#myForm {
+    width: 350px; 
+    padding: 10px; 
+    margin: auto;}
+
+label { font-size: 1.5em;
+    display: inline-block;
+     width: 125px; 
+     margin-top: 10px; }
+
+input { display: inline-flex; 
+    margin-top: 10px; }
+
+table {
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 2px solid #000;
+    height: 40px;
+}
+
+td {
+    width: 25%;
+}
+
+#delete_button {
+    text-align: right;
+    width: 10%;
+}
+
+#delete_button  button {
+    color: #FFFFFF;
+	background: #A52A2A;
+	padding: 5px 6px;
+	text-decoration: none;
+}
+
+.sub_button {
+    margin: 5% 10% ;
+	height: 5em;
+    width: 70%;
+	background: #fdc04e;
+	border: 2px solid #000000;
+	border-radius: 5px; 
+	padding: 5px 20px;
+}
